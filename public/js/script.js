@@ -30,8 +30,20 @@ document.addEventListener("DOMContentLoaded", () => {
       dDB.addEventListener("click", () =>{
         dD.classList.toggle("hidden")
         setTimeout(() => {
-          dDL1.classList.toggle("")
+          dDL1.classList.toggle("opacity-100")
         }, 100);
+        setTimeout(() => {
+          dDL2.classList.toggle("opacity-100")
+        }, 200);
+        setTimeout(() => {
+          dDL3.classList.toggle("opacity-100")
+        }, 300);
+        setTimeout(() => {
+          dDL4.classList.toggle("opacity-100")
+        }, 400);
+        setTimeout(() => {
+          dDL5.classList.toggle("opacity-100")
+        }, 500);
       })
     }
   }
