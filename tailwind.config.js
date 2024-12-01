@@ -23,9 +23,6 @@ module.exports = {
           '100%': { transform: 'translateX(-1700%)' },
         },
       },
-      screens:{
-        'xs':''
-      }
     },
   },
   plugins: [],
